@@ -96,3 +96,10 @@ console.log(colorsObj.length); //undefined
 console.log(colorsArray.push); // ['orange', 'yellow', 'green']
 console.log(colorsObj.push); //no method
 ```
+```
+var emptyArray =[];
+var emptyObj = {};
+
+console.dir(emptyArray._proto_);
+console.dir(emptyObj._proto_);
+```
