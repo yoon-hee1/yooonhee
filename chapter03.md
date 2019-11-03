@@ -26,7 +26,7 @@ emptyArr[0] = 100;
 emptyArr[3] = 'eight';
 emptyArr[7] = true;
 console.log(emptyArr); //[100, undefined, undefined, "eight:, undefined, undefined, undefined, true]
-consoloe.log(emptyArr,length); //8
+console.log(emptyArr.length); //8
 ```
 
 ## 3.5.3 배열의 length 프로퍼티
