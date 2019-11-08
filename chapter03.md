@@ -7,7 +7,7 @@
 ## 3.5.1 배열 리터럴
 - 객체 리터럴 : 중괄호 사용, 프로퍼티 이름과 프로퍼티값을 모두 표기,  표기법을 사용하여 해당 프로퍼티에 접근
 - 배열 리터럴 : 대괄호 사용, 각 요소의 값만 포함, 배열 내 위치 인덱스값을 넣어서 접근
-```
+```js
 var colorArr = ['orange', 'yellow', 'blue', 'green'];
 console.log(colorArr[0]); //orange
 console.log(colorArr[1]); //yellow
@@ -16,7 +16,7 @@ console.log(colorArr[3]); //green
 
 ## 3.5.2 배열의 요소 생성
 - 배열도 동적으로 배열 원소를 추가 할 수 있다
-```
+```js
 //빈 배열
 var emptyArr= [];
 console.log(emptyArr[0]); //undefined
@@ -31,7 +31,7 @@ console.log(emptyArr.length); //8
 
 ## 3.5.3 배열의 length 프로퍼티
 length 프로퍼티는 배열 내에서 가장 큰 인덱스에 1을 더한 값이다
-```
+```js
 var arr= [];
 console.log(arr.length);
 arr[0] = 0; //arr.length = 1
@@ -40,7 +40,7 @@ arr[2] = 2; //arr.length = 3
 arr[100] = 100; 
 console.log(arr.length); //101
 ```
-```
+```js
 var arr = [0, 1, 2];
 console.log(arr.length); //3
 
@@ -53,7 +53,7 @@ console.log(arr[2]); //undefined
 ```
 ## 3.5.3.1 배열 표준 메서드와 length 프로퍼티
 push() : 배열의 끝에 추가하는 자바스크립트 표준 배열 메서드 (배열의 끝에 추가 = length값의 위치에 추가)
-```
+```js
 var arr=['zero', 'one', 'two'];
 
 //push메서드 호출
@@ -67,7 +67,7 @@ console.log(arr); //['zero', 'one', 'two', 'three', undefined, 'four']
 ```
 
 ## 3.5.4 배열과 객체
-```
+```js
 //colorArray 배열
 var colorArray = ['orange', 'yellow', 'green'];
 console.log(colorArray[0]); //orange
@@ -96,7 +96,7 @@ console.log(colorsObj.length); //undefined
 console.log(colorsArray.push); // ['orange', 'yellow', 'green']
 console.log(colorsObj.push); //no method
 ```
-```
+```js
 var emptyArray =[];
 var emptyObj = {};
 
