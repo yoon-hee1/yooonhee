@@ -111,20 +111,3 @@ console.log(foo.hasOwnProperty('name')); // true
 console.dir(Person.prototype);
 
 ```
-
-
-```js
-```
-
-
-```js
-```
-
-
-```js
-```
-
-
-
-```js
-```
